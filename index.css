@@ -89,8 +89,31 @@ button:focus:not(:focus-visible) {
 }
 body{
     text-align: center;
-    background: url(https://i.pinimg.com/736x/72/7b/46/727b4685a1224a35133bf6281264c81f.jpg);
+  height: 100vh;
+  margin: 0;
+  background-color: #222; 
+  background-image: 
+    radial-gradient(white 10%, transparent 11%), 
+    linear-gradient(45deg, #222, #8B0000, #222); 
+  background-size: 
+    50px 50px,      
+    400% 400%;     
+  background-position:
+    0 0,            
+    0% 50%;        
+  animation: bg 10s ease-in-out infinite;
+}
 
+@keyframes bg {
+  0% {
+    background-position: 0 0, 0% 50%;
+  }
+  50% {
+    background-position: 0 0, 100% 50%;
+  }
+  100% {
+    background-position: 0 0, 0% 50%;
+  }
 }
 
 .thead{
