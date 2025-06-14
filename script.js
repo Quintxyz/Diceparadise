@@ -30,7 +30,7 @@ brand.addEventListener('click', function(){
 });
 
 brese.addEventListener('click', function(){
-    sImage.src = 'img/ปก.png';
+    sImage.src = 'img/dice.png';
     sText.innerHTML = 'กดปุ่ม "กดเพื่อทอย" เพื่อเริ่มใหม่';
 
     brand.style.display = 'inline';
