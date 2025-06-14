@@ -94,7 +94,7 @@ body{
   background-color: #222; 
   background-image: 
     radial-gradient(white 10%, transparent 11%), 
-    linear-gradient(45deg, #222, #8B0000, #222); 
+    linear-gradient(45deg, #0e0a0a, #eb0101, #000000); 
   background-size: 
     50px 50px,      
     400% 400%;     
