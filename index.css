@@ -92,16 +92,15 @@ body{
   height: 100vh;
   margin: 0;
   background-color: #222; 
-  background-image: 
-    radial-gradient(white 10%, transparent 11%), 
-    linear-gradient(45deg, #0e0a0a, #eb0101, #000000); 
+  background-image:  
+    linear-gradient(45deg, #0e0a0a, #d60000, #000000); 
   background-size: 
     50px 50px,      
     400% 400%;     
   background-position:
     0 0,            
     0% 50%;        
-  animation: bg 10s ease-in-out infinite;
+  animation: bg 15s ease-in-out infinite;
 }
 
 @keyframes bg {
